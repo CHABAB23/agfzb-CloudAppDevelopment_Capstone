@@ -60,4 +60,3 @@ def get_dealerships(request):
 # def add_review(request, dealer_id):
 # ...
 
-git config --global user.name "CHABAB23"
