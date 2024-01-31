@@ -94,7 +94,10 @@ def registration_request(request):
 
 # Update the `get_dealerships` view to render the index page with a list of dealerships
 def get_dealerships(request):
-    context = {}
+
+    context = {
+       
+    }
     if request.method == "GET":
         return render(request, 'djangoapp/index.html', context)
 
